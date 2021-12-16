@@ -1,0 +1,1 @@
+https://realpython.com/python-encodings-guide/
