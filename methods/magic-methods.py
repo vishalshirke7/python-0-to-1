@@ -1,4 +1,5 @@
-# Dunders
+# Dunders --> __init__, __str__, __dir__, __repr__
+# https://www.analyticsvidhya.com/blog/2021/08/explore-the-magic-methods-in-python/
 
 class Employee:
 
@@ -35,3 +36,6 @@ emp_2 = Employee('Test', 'Employee', 60000)
 # print(emp_1 + emp_2)
 
 print(len(emp_1))
+print(repr(emp_1))
+print(str(emp_1))
+# print(add(emp_1))

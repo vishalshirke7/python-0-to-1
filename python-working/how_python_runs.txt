@@ -4,6 +4,9 @@ https://hackernoon.com/i-finally-understand-static-vs-dynamic-typing-and-you-wil
 https://medium.com/analytics-vidhya/is-python-really-very-slow-2-major-problems-to-know-which-makes-python-very-slow-9e92653265ea
 https://jakevdp.github.io/blog/2014/05/09/why-python-is-slow/
 
+
+
+Why Python is slow
 “It’s the GIL (Global Interpreter Lock)”
 “It’s because its interpreted and not compiled”
 “It’s because its a dynamically typed language”

@@ -1,4 +1,3 @@
-
 # Inheritance
 # Refer WSGI exception module of python
 
