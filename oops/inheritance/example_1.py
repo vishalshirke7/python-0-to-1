@@ -1,3 +1,5 @@
+# Inheritance
+# Refer WSGI exception module of python
 # Simple Inheritance
 class Employee(object):
     raise_amt = 1.04
@@ -58,6 +60,8 @@ dev2 = Developer('Corey', 'Schafer', 200000000, 'Java')
 print(dev1.email, dev1.prog_lang) 
 print(dev2.email, dev2.prog_lang)
 
+
+# Big example
 
 class Manager(Employee):
 

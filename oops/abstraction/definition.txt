@@ -1,0 +1,6 @@
+Prevents a user from creating an object of that class
+# compels a user to override abstarct methods in their child class
+
+
+Abstarct class -  a class which contains one or more abstract methods
+Abstarct Method  - a method which has a declaration but does not have an implementation 
