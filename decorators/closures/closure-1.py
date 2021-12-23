@@ -24,7 +24,7 @@ add_logger = logger(add)
 sub_logger = logger(sub)
 
 add_logger(3, 3)
-add_logger(4, 5)
+# add_logger(4, 5)
 
-sub_logger(10, 5)
+# sub_logger(10, 5)
 sub_logger(20, 10)

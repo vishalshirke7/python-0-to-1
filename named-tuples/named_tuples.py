@@ -11,12 +11,13 @@ color = {'red': 55, 'green': 155, 'blue': 255}
 # namedtuple
 Color = namedtuple('Color', ['red', 'green', 'blue'])
 color = Color(blue=55,green=155,red=255)
+print(color.red)
 
-from collections import namedtuple
+
 
 Color = namedtuple('Color', ['red', 'green', 'blue'])
 
 color = Color(55,155,255)
 white = Color(255,255,255)
 
-print color.blue
+print(color.blue)

@@ -25,9 +25,10 @@ nums = MyRange(1, 10)
 # generators
 def my_range(start, end):
     current = start
-    while current < start:
+    while current < start + 100:
         yield current
         current += 1
 
-for num in nums:
+nums_g = my_range(1, 100)
+for num in nums_g:
     print(num)
