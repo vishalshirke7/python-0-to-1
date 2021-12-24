@@ -1,0 +1,7 @@
+https://stackoverflow.com/questions/19324306/running-two-threads-at-the-same-time/19324717
+
+
+Threading:
+When you launch an executable, it is running in a thread within a process. When you launch another thread, call it thread 2, you now have 2 separately running execution chains (threads) within the same process. On a single core microprocessor (uP), it is possible to run multiple threads, but not in parallel. Although conceptually the threads are often said to run at the same time, they are actually running consecutively in time slices allocated and controlled by the operating system. These slices are interleaved with each other. So, the execution steps of thread 1 do not actually happen at the same time as the execution steps of thread 2. These behaviors generally extend to as many threads as you create, i.e. packets of execution chains all working within the same process and sharing time slices doled out by the operating system.
+
+So, in your system call example, it really depends on what the system call is as to whether or not it would finish before allowing the execution steps of the other thread to proceed. Several factors play into what will happen: Is it a blocking call? Does one thread have more priority than the other. What is the duration of the time slices?

@@ -1,4 +1,5 @@
 https://talks.golang.org/2012/waza.slide#8
+https://docs.oracle.com/cd/E19253-01/816-5137/mtintro-25092/index.html
 
 Concurrency is when two or more tasks can start, run, and complete in overlapping time periods. It doesn't necessarily mean they'll ever both be running at the same instant. For example, multitasking on a single-core machine.
 

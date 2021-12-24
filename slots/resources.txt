@@ -1,0 +1,2 @@
+https://www.geeksforgeeks.org/python-use-of-__slots__/
+https://stackoverflow.com/questions/472000/usage-of-slots

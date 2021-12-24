@@ -1,0 +1,4 @@
+1. https://realpython.com/python-gil/
+2. https://realpython.com/python-concurrency/
+3. https://realpython.com/python-async-features/
+4. https://realpython.com/async-io-python/#where-does-async-io-fit-in

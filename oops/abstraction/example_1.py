@@ -21,10 +21,10 @@ class Car(Vehicle):
 class MotorCycle(Vehicle):
 
     def go(self):
-        print('You ride the MotorCycle')    
+        print('You ride the MotorCycle')
 
     def stop(self):
-        print('MotorCycle stopped')        
+        print('MotorCycle stopped')
 
 # v = Vehicle()
 c = Car()
@@ -33,4 +33,4 @@ m = MotorCycle()
 c.stop()
 m.stop()
 c.go()
-m.go()      
+m.go()
