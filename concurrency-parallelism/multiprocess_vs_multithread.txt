@@ -1,0 +1,10 @@
+https://www.youtube.com/watch?v=ecKWiaHCEKs
+https://www.youtube.com/watch?v=olYdb0DdGtM
+https://www.toptal.com/python/beginners-guide-to-concurrency-and-parallelism-in-python
+
+https://realpython.com/python-concurrency/
+
+Number of multiprocessses depends on CPU count (Core Count)
+
+3. https://realpython.com/python-async-features/
+4. https://realpython.com/async-io-python/#where-does-async-io-fit-in
