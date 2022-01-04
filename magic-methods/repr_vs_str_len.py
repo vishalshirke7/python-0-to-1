@@ -39,3 +39,8 @@ print(len(emp_1))
 print(repr(emp_1))
 print(str(emp_1))
 # print(add(emp_1))
+
+
+# Dunders --> __new__ = This actually creates the object and while __init__ initializes it with default values
+# https://www.analyticsvidhya.com/blog/2021/08/explore-the-magic-methods-in-python/
+

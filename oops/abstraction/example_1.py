@@ -16,7 +16,7 @@ class Car(Vehicle):
         print('You drive the Car')
 
     def stop(self):
-        print('Car stopped')        
+        print('Car stopped')
 
 class MotorCycle(Vehicle):
 
